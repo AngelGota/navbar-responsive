@@ -26,13 +26,13 @@ function Navbar() {
   return (
     <>
         <NavbarContainer>
-            <h2><span>Angelo Gomez</span></h2>
+            <h2><span>Mi empresa</span></h2>
             <div className={`links ${clicked ? 'active' : ''}`}>
                 <a onClick={handleClick} href="#otherpage">Home</a>
-                <a onClick={handleClick} href="#otherpage">AboutMe</a>
-                <a onClick={handleClick} href="#otherpage">Skills</a>
-                <a onClick={handleClick} href="#otherpage">Projects</a>
+                <a onClick={handleClick} href="#otherpage">Shop</a>
+                <a onClick={handleClick} href="#otherpage">About us</a>
                 <a onClick={handleClick} href="#otherpage">Contact</a>
+                <a onClick={handleClick} href="#otherpage">Blog</a>
             </div>
             <div className='burguer'>
                 <BurguerButton clicked={clicked} handleClick={handleClick}/>
